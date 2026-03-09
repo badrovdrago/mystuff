@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/managment1.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "name": "(Windows) Attach",
+            "type": "cppvsdbg",
+            "request": "attach"
+        },
+        {
+            "name": "Launch Edge",
+            "type": "msedge",
+            "request": "launch",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
